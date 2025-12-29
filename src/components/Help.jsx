@@ -1,8 +1,7 @@
 import React from 'react'
 import Container from './Container'
 
-import icon04 from "../assets/icon04.png"
-
+// import icon04 from "../assets/icon04.png"
 import icon05 from "../assets/icon05.png"
 import icon06 from "../assets/icon06.png"
 
@@ -26,7 +25,7 @@ const Help = () => {
                    </div>
                 </div>
                 <div className="lg:w-[50%] w-full flex items-center gap-4 mt-10 lg:mt-0 sm:mt-0">
-                    <img src={icon04} alt="icon" />
+                    <img src="icon04.png" alt="icon" />
                    <div className=" ">
                           <h2 className='text-[#4D4D4D] font-bold text-[28px] font-inter'>46,328</h2>
                           <p className='text-[#18191F] font-normal text-[16px] font-inter'>Clubs</p>
