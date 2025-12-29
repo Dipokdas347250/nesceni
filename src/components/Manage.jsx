@@ -1,8 +1,8 @@
 import React from 'react'
 import Container from './Container'
-import icon001 from '../assets/icon01.png'
-import icon002 from '../assets/icon02.png'
-import icon003 from '../assets/icon.png'
+import icon001 from '../assets/Icon01.png'
+import icon002 from '../assets/Icon02.png'
+import icon003 from '../assets/Icon.png'
 
 const Manage = () => {
     return (
