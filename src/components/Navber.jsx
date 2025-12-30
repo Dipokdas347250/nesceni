@@ -32,22 +32,22 @@ const Navber = () => {
         <nav className=" bg-[#F5F7FA]  lg:py-3 px-1 w-full fixed z-50 shadow-lg">
             <Container >
                 <div className="flex justify-between items-center lg:hidden py-2 px-1 shadow-sm">
-                    <div className=" lg:hidden cursor-pointer  border border-[#4CAF4F] p-2 rounded-[2px]   " onClick={() => setShow(!show)}>
+                    <div className=" lg:hidden cursor-pointer  border border-[#bdebbe] p-2 rounded-[2px]   " onClick={() => setShow(!show)}>
                         {show == true ? <GiLightSabers /> : <FaBars />}
 
                     </div>
                     <div className=" ">
 
                         <div className="">
-                            <div className={`lg:flex justify-between items-center absolute lg:static  duration-700 ease-in-out ${show == true ? "bg-white  hover:text-[#fff] w-[35%] top-[52px] left-1 shadow-lg" : "w-[35%] top-[-400px] left-1 shadow-lg"}`}>
+                            <div className={`lg:flex justify-between items-center absolute lg:static  duration-700 ease-in-out ${show == true ? "bg-white  hover:text-[#fff] w-[35%] top-[52px] left-1 " : "w-[35%] top-[-400px] left-1 shadow-lg"}`}>
                                 <div className="lg:w-[70%] w-full">
                                     <ul className="lg:flex justify-around p-3  ">
                                         <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Home</li>
+                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>About</li>
                                         <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Service</li>
-                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Feature</li>
                                         <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Product</li>
                                         <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Testimonial</li>
-                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>FAQ</li>
+                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Contact</li>
                                     </ul>
                                 </div>
 
@@ -62,7 +62,7 @@ const Navber = () => {
                         </div>
 
                     <div className="font-inter ">
-                        <button onClick={handlelogin} className=' py-1 px-4 text-[#000]  rounded-[2px] text-[16px] border border-[#4CAF4F] duration-300 ease-in-out hover:bg-[#4CAF4F] hover:text-[#fff] '>Login</button>
+                        <button onClick={handlelogin} className=' py-1 px-4 text-[#000]  rounded-[2px] text-[16px] border border-[#bdebbe] duration-300 ease-in-out hover:bg-[#4CAF4F] hover:text-[#fff] '>Login</button>
                         
                        
                     </div>
@@ -87,17 +87,17 @@ const Navber = () => {
                                 <div className="lg:w-[70%] w-full">
                                     <ul className="lg:flex justify-around text-center  ">
                                         <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Home</li>
+                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>About</li>
                                         <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Service</li>
-                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Feature</li>
                                         <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Product</li>
                                         <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Testimonial</li>
-                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>FAQ</li>
+                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Contact</li>
                                     </ul>
                                 </div>
 
                                 <div className="lg:w-[30%] w-full lg:flex lg:justify-end flex justify-center   gap-4 font-inter pb-3 lg:pb-0 mt-3 lg:mt-0">
-                                    <button onClick={handlelogin} className='px-5 py-2 text-[#000]  rounded-xl border-2 border-[#4CAF4F] duration-300 ease-in-out hover:bg-[#4CAF4F] hover:text-[#fff] '>Login</button>
-                                    <button className=' px-5 py-2 text-[#000]  rounded-xl border-2 border-[#4CAF4F] duration-300 ease-in-out hover:bg-[#4CAF4F] hover:text-[#fff]'>Sign UP</button>
+                                    <button onClick={handlelogin} className='px-5 py-2 text-[#000]  rounded-xl border border-[#4CAF4F] duration-300 ease-in-out hover:bg-[#4CAF4F] hover:text-[#fff] '>Login</button>
+                                  
                                 </div>
 
                             </div>
