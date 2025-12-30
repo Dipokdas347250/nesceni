@@ -42,12 +42,12 @@ const Navber = () => {
                             <div className={`lg:flex justify-between items-center absolute lg:static  duration-700 ease-in-out ${show == true ? "bg-white  hover:text-[#fff] w-[35%] top-[52px] left-1 shadow-lg" : "w-[35%] top-[-400px] left-1 shadow-lg"}`}>
                                 <div className="lg:w-[70%] w-full">
                                     <ul className="lg:flex justify-around p-3  ">
-                                        <li className={`p-2 text-[#18191F] shadow-lg font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Home</li>
-                                        <li className={`p-2 text-[#18191F] shadow-lg font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Service</li>
-                                        <li className={`p-2 text-[#18191F] shadow-lg font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Feature</li>
-                                        <li className={`p-2 text-[#18191F] shadow-lg font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Product</li>
-                                        <li className={`p-2 text-[#18191F] shadow-lg font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Testimonial</li>
-                                        <li className={`p-2 text-[#18191F] shadow-lg font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>FAQ</li>
+                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Home</li>
+                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Service</li>
+                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Feature</li>
+                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Product</li>
+                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Testimonial</li>
+                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>FAQ</li>
                                     </ul>
                                 </div>
 
@@ -71,9 +71,9 @@ const Navber = () => {
                 </div>
                 {login && (<div className=" mt-2 p-2 lg:w-[30%] w-[45%] bg-white text-green-800 shadow-lg rounded-md  absolute top-[45px] right-0">
                   <ul className='text-end'>
-                    <li className='p-2 shadow-lg text-[#000] text-[16px] font-medium duration-300 ease-in-out hover:bg-gray-100 hover:text-[#fff] '>Astha Academic</li>
-                    <li className='p-2 shadow-lg text-[#000] text-[16px] font-medium mt-1 duration-300 ease-in-out hover:bg-gray-100 hover:text-[#fff] '>Astha Hospital </li>
-                    <li className='p-2 shadow-lg text-[#000] text-[16px] font-medium mt-1 duration-300 ease-in-out hover:bg-gray-100 hover:text-[#fff] '>Astha Wallet</li>
+                    <li className='p-2  text-[#000] text-[16px] font-medium duration-300 ease-in-out hover:bg-gray-100 hover:text-[#fff] '>Astha Academic</li>
+                    <li className='p-2  text-[#000] text-[16px] font-medium mt-1 duration-300 ease-in-out hover:bg-gray-100 hover:text-[#fff] '>Astha Hospital </li>
+                    <li className='p-2  text-[#000] text-[16px] font-medium mt-1 duration-300 ease-in-out hover:bg-gray-100 hover:text-[#fff] '>Astha Wallet</li>
                   </ul>
                 </div> )}
                 <div className="flex items-center lg:block hidden ">
