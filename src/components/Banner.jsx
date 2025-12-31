@@ -3,37 +3,38 @@ import Container from './Container'
 import ban from "../assets/banner.png"
 
 const Banner = () => {
-  
+
   let [show, setShow] = React.useState(false);
 
-  
+
   const handleReg = () => {
     setShow(!show);
-   
+
   }
 
   return (
     <>
-    <section className='py-24 lg:pt-40 pt-30 px-1 bg-[#F5F7FA]'>
+      <section className='py-24 lg:pt-40 pt-30 lg:px-1 px-2 bg-[#F5F7FA]'>
         <Container>
-            <div className=" lg:flex justify-between items-center">
+          <div className=" lg:flex justify-between items-center">
             <div className="w-[100%] lg:w-[50%]">
-                <h1 className=" text-[#18191F] font-semibold lg:text-[64px] sm:text-[42px] text-[28px] font-inter text-center lg:text-start ">Lessons and insights  <span className=' inline-block text-[#4CAF4F]'>from 8 years</span> </h1>
-                <p className=" w-[80%] mx-auto lg:mx-0 text-[#717171] font-medium text-[16px] font-inter text-center lg:text-start">Where to grow your business as a photographer: site or social media? </p>
-                <button onClick={handleReg} className="ml-[50%] translate-x-[-50%] lg:ml-0 lg:translate-x-0 px-5 py-2 text-[#fff]  rounded-xl bg-[#4CAF4F] border-2 border-[#4CAF4F] duration-300 ease-in-out hover:bg-[#fff] hover:text-[#000] mt-5">Register</button>
-                {show && (<div className=" mt-2 p-4 lg:w-[30%] w-[50%] bg-green-100 text-green-800 rounded-md">
-                  <ul>
-                    <li className='p-2 border border-[#4caf4f] text-[#000] text-[18px] font-medium duration-300 ease-in-out hover:bg-[#4CAF4F] hover:text-[#fff] '>Hospital</li>
-                    <li className='p-2 border border-[#4caf4f] text-[#000] text-[18px] font-medium mt-1 duration-300 ease-in-out hover:bg-[#4CAF4F] hover:text-[#fff] '>pre School</li>
-                  </ul>
-                </div> )}
+              <h1 className=" text-[#18191F] font-semibold lg:text-[64px] sm:text-[42px] text-[28px] font-inter text-center lg:text-start ">Empowering Your Vision with Intelligent
+                <span className=' inline-block text-[#4CAF4F]'> Software</span> </h1>
+              <p className=" w-[80%] mx-auto lg:mx-0 text-[#717171] font-medium text-[16px] font-inter text-center lg:text-start">Secure, fast, and future-ready. Soft Vio IT provides the technical backbone your company needs to lead the market.</p>
+              <button onClick={handleReg} className="ml-[50%] translate-x-[-50%] lg:ml-0 lg:translate-x-0 px-5 py-2 text-[#fff]  rounded-xl bg-[#4CAF4F] border-2 border-[#4CAF4F] duration-300 ease-in-out hover:bg-[#fff] hover:text-[#000] mt-5">Register</button>
+              {show && (<div className=" mt-2 p-4 lg:w-[30%] w-[50%] bg-green-100 text-green-800 rounded-md">
+                <ul>
+                  <li className='p-2 border border-[#4caf4f] text-[#000] text-[18px] font-medium duration-300 ease-in-out hover:bg-[#4CAF4F] hover:text-[#fff] '>Hospital</li>
+                  <li className='p-2 border border-[#4caf4f] text-[#000] text-[18px] font-medium mt-1 duration-300 ease-in-out hover:bg-[#4CAF4F] hover:text-[#fff] '>pre School</li>
+                </ul>
+              </div>)}
             </div>
             <div className="">
-                <img className='mt-4 lg:mt-0' src={ban} alt="" />
+              <img className='mt-4 lg:mt-0 ml-[50%] translate-x-[-50%] lg:ml-0 lg:translate-x-0' src={ban} alt="" />
             </div>
-            </div>
+          </div>
         </Container>
-    </section>
+      </section>
     </>
   )
 }

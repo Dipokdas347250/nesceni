@@ -9,20 +9,22 @@ import { RiTwitterFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <>
-    <section className='py-16 px-1 bg-[#263238] '>
+    <section className='py-6 lg:px-1 px-2 bg-[#263238] '>
         <Container>
-            <div className=" lg:flex justify-between items-center">
-                <div className="lg:w-[30%] w-full ">
+            <div className=" ">
+                <div className="lg:flex lg:justify-between items-center ">
                     <img className='ml-[50%] translate-x-[-50%] lg:ml-0 lg:translate-x-0' src={logo} alt="logo" />
-                    <p className="text-[#F5F7FA] font-inter text-[16px] mt-10">Copyright © 2020 Nexcent ltd. <span className=' block mt-3'>All rights reserved .</span></p>
-                    <div className=" flex gap-4 mt-5 text-[24px] text-[#fff] ml-[50%] translate-x-[-50%] lg:ml-0 lg:translate-x-0 ">
+                    <p className="text-[#F5F7FA] font-inter text-[16px] mt-4 lg:mt-0 text-center">Copyright © 2020 Soft vio it . All rights reserved .</p>
+                    <div className="ml-[50%] translate-x-[-50%] lg:ml-0 lg:translate-x-0 mt-4 lg:mt-0">
+                        <div className=" flex justify-between gap-4 text-[24px] text-[#fff]  ">
                         < FaFacebookSquare />
                         <FaInstagramSquare />
                         <RiTwitterFill />
                         <FaYoutube  />
                     </div>
+                    </div>
                 </div>
-                <div className="lg:w-[60%] w-full">
+                {/* <div className="lg:w-[60%] w-full">
                     <div className=" lg:flex justify-between">
                     <div className="lg:w-[30%] w-full text-center">
                         <h1 className="text-[#F5F7FA] font-semibold text-[20px] font-inter mt-3 lg:mt-0 ">Company</h1>
@@ -53,7 +55,7 @@ const Footer = () => {
 
                     </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </Container>
     </section>

@@ -4,7 +4,7 @@ import pana from '../assets/pana.png'
 
 const Design = () => {
   return (
-    <section className='py-10 px-1 bg-[#fff]'>
+    <section className='py-10 lg:px-1 px-2 bg-[#fff]'>
     <Container>
         <div className=" lg:flex justify-between items-center">
             <div className="lg:w-[50%] w-full">

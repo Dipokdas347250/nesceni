@@ -14,7 +14,7 @@ import logo06 from "../assets/Logo (6).png"
 const Tim = () => {
     return (
         <>
-            <section className='py-8 px-1 bg-[#F5F7FA]'>
+            <section className='py-8 lg:px-1 px-2 bg-[#F5F7FA]'>
                 <Container>
                     <div className=" lg:flex justify-between items-center">
                         <div className="lg:w-[40%] w-full">
