@@ -29,8 +29,9 @@ function App() {
   <Caring/>
   <Get/>
   <Footer/>
-    
     </>
+  
+
   )
 }
 

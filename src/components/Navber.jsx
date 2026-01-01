@@ -95,7 +95,7 @@ const Navber = () => {
                                 </div>
 
                                 <div className="lg:w-[30%] w-full lg:flex lg:justify-end flex justify-center   gap-4 font-inter pb-3 lg:pb-0 mt-3 lg:mt-0">
-                                    <button onClick={handlelogin} className='px-5 py-2 text-[#000]  rounded-[2px] border border-[#4CAF4F] duration-300 ease-in-out hover:bg-[#4CAF4F] hover:text-[#fff] '>Login</button>
+                                    <button onClick={handlelogin} className='px-5 py-1 text-[#000]  rounded-[2px] border border-[#4CAF4F] duration-300 ease-in-out hover:bg-[#4CAF4F] hover:text-[#fff] '>Login</button>
                                   
                                 </div>
 
