@@ -23,7 +23,7 @@ const Design = () => {
 
                             Where every detail improves the user journey.
                         </p>
-                        <button className='px-5 py-2 text-[#000]  rounded-xl border-2 border-[#4CAF4F] mt-8 duration-300 ease-in-out hover:bg-[#4CAF4F] hover:text-[#fff] '>Learn More</button>
+                        <button className='px-5 py-2 text-[#000]  rounded-xl border border-[#4CAF4F] mt-8 duration-300 ease-in-out hover:bg-[#4CAF4F] hover:text-[#fff] '>Learn More</button>
                     </div>
                 </div>
             </Container>

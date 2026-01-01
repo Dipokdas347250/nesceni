@@ -16,8 +16,8 @@ const Footer = () => {
                 <div className="lg:flex lg:justify-between items-center ">
                     <img className='ml-[50%] translate-x-[-50%] lg:ml-0 lg:translate-x-0' src={logo} alt="logo" />
                     <p className="text-[#F5F7FA] font-inter text-[16px] mt-4 lg:mt-0 text-center">Copyright © 2020 Soft vio it . All rights reserved .</p>
-                    <div className="ml-[50%] translate-x-[-50%] lg:ml-0 lg:translate-x-0 mt-4 lg:mt-0">
-                        <div className=" flex justify-between gap-4 text-[24px]   ">
+                    <div className="ml-[50%] translate-x-[-50%] lg:ml-0 lg:translate-x-0 mt-4 lg:mt-0 ">
+                        <div className=" flex justify-center  gap-4 text-[24px]   ">
                         < FaFacebookSquare className='text-[#0866FF] ' />
                         
                         < FaWhatsappSquare className='text-[#0ee415]' />
