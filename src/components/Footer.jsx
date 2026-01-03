@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from './Container'
-import logo from "../assets/Logo0.png"
+import logo from "../assets/logo0.png"
 import { FaFacebookSquare ,FaInstagramSquare} from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 
