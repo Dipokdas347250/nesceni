@@ -3,6 +3,7 @@ import './App.css'
 import Banner from './components/Banner'
 import Caring from './components/Caring'
 import Client from './components/Client'
+import Contact from './components/Contact'
 import Design from './components/Design'
 import Footer from './components/Footer'
 import Get from './components/Get'
@@ -28,6 +29,7 @@ function App() {
   <Tim/>
   <Caring/>
   <Get/>
+  <Contact/>
   <Footer/>
     </>
   

@@ -12,7 +12,7 @@ import Marquee from 'react-fast-marquee'
 const Client = () => {
   return (
     <>
-    <section className='py-10 lg:px-1 px-2 bg-[#fff]'>
+    <section className='py-10 lg:px-1 px-2 bg-[#fff] ' id='about'>
         <Container>
            
             <div className=" text-center">

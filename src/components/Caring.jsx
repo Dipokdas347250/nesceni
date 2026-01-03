@@ -8,7 +8,7 @@ import car02 from "../assets/image 20.png"
 const Caring = () => {
   return (
     <>
-      <section className="py-10 lg:px-1 px-2 bg-[#fff]">
+      <section className="py-10 lg:px-1 px-2 bg-[#fff]" id='product'>
         <Container>
 
           <div className="text-center">

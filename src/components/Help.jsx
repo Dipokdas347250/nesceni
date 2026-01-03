@@ -10,7 +10,7 @@ import CountUp from 'react-countup'
 const Help = () => {
   return (
     <>
-      <section className='py-10 lg:px-1 px-2 bg-[#F5F7FA]' >
+      <section className='py-10 lg:px-1 px-2 bg-[#F5F7FA]' id='service' >
         <Container>
           <div className=" lg:flex justify-between items-center">
             <div className="lg:w-[40%] w-full">

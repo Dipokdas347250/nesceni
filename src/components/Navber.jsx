@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Container from './Container'
-import logo from "../assets/Logo.png"
+import logo from "../assets/logo0.png"
 import { GiLightSabers } from "react-icons/gi";
 import { FaBars } from "react-icons/fa";
 
@@ -41,12 +41,12 @@ const Navber = () => {
                             <div className={`lg:flex justify-between items-center absolute lg:static  duration-700 ease-in-out ${show == true ? "bg-white  hover:text-[#fff] w-[35%] top-[52px] left-1 " : "w-[35%] top-[-400px] left-1 shadow-lg"}`}>
                                 <div className="lg:w-[70%] w-full">
                                     <ul className="lg:flex justify-around p-3  ">
-                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Home</li>
-                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>About</li>
-                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Service</li>
-                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Product</li>
-                                        
-                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}>Contact</li>
+                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}><a href="/">Home</a></li>
+                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}><a href="#about">About</a></li>
+                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}><a href="#service">Service</a></li>
+                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}><a href="#product">Product</a></li>
+
+                                        <li className={`p-2 text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-black hover:bg-gray-100" : ""}   hover:text-[#4CAF4F] mt-1 lg:mt-0`}><a href="#contact">Contact</a></li>
                                     </ul>
                                 </div>
 
@@ -57,7 +57,9 @@ const Navber = () => {
 
                     </div>
                         <div className="">
-                            <img className='' src={logo} alt="logo" />
+                             <a href="/">
+                                <img className='h-[40px]' src={logo} alt="logo" />
+                            </a>
                         </div>
 
                     <div className="font-inter ">
@@ -70,27 +72,35 @@ const Navber = () => {
                 </div>
                 {login && (<div className=" mt-2 p-2 lg:w-[30%] w-[45%] bg-white text-green-800 shadow-lg rounded-md  absolute top-[45px] right-0 lg:hidden">
                   <ul className='text-end'>
-                    <li className='p-2  text-[#000] text-[16px] font-medium duration-300 ease-in-out hover:bg-gray-100 hover:text-[#4CAF4F] cursor-pointer '>Astha Academic</li>
-                    <li className='p-2  text-[#000] text-[16px] font-medium mt-1 duration-300 ease-in-out hover:bg-gray-100 hover:text-[#4CAF4F] cursor-pointer '>Astha Hospital </li>
-                    <li className='p-2  text-[#000] text-[16px] font-medium mt-1 duration-300 ease-in-out hover:bg-gray-100 hover:text-[#4CAF4F] cursor-pointer '>Astha Wallet</li>
+                    <li className='p-2  text-[#000] text-[16px] font-medium duration-300 ease-in-out hover:bg-gray-100 hover:text-[#4CAF4F] cursor-pointer '>
+                        <a href="https://preskool.dreamstechnologies.com/html/template/index.html" target='blank'>Astha Academic</a>
+                    </li>
+                    <li className='p-2  text-[#000] text-[16px] font-medium mt-1 duration-300 ease-in-out hover:bg-gray-100 hover:text-[#4CAF4F] cursor-pointer '>
+                        <a href="https://preclinic.dreamstechnologies.com/html/template/login.html" target='blank'>Astha Hospital</a> </li>
+                    <li className='p-2  text-[#000] text-[16px] font-medium mt-1 duration-300 ease-in-out hover:bg-gray-100 hover:text-[#4CAF4F] cursor-pointer '>
+                        
+                        <a href="https://pospro.acnoo.com/login" target='blank'>Astha Wallet</a>
+                    </li>
                   </ul>
                 </div> )}
                 <div className="flex items-center lg:block hidden ">
                     <div className="flex justify-between items-center w-full">
 
                         <div className="lg:w-[20%] w-[40%]">
-                            <img src={logo} alt="logo" />
+                            <a href="/">
+                                <img className='h-[40px]' src={logo} alt="logo" />
+                            </a>
                         </div>
                         <div className="lg:w-[80%]">
                             <div className={`lg:flex justify-between items-center absolute lg:static  duration-700 ease-in-out ${show == true ? "bg-[#4CAF4F] hover:text-[#fff] w-full top-14 left-0" : "w-full top-[-300px] left-0"}`}>
                                 <div className="lg:w-[70%] w-full">
                                     <ul className="lg:flex justify-around text-center  ">
-                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Home</li>
-                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>About</li>
-                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Service</li>
-                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Product</li>
+                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}> <a href="/">Home</a></li>
+                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}> <a href="#about">About</a></li>
+                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}> <a href="#service">Service</a></li>
+                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}> <a href="#product">Product</a></li>
                                         
-                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}>Contact</li>
+                                        <li className={`text-[#18191F] font-medium text-[16px] font-inter cursor-pointer duration-300 ease-in-out ${show == true ? "hover:text-[#fff]" : ""}   hover:text-[#4CAF4F] mt-3 lg:mt-0`}> <a href="#contact">Contact</a></li>
                                     </ul>
                                 </div>
 
@@ -103,9 +113,15 @@ const Navber = () => {
                         </div>
                        {login && (<div className=" mt-2 p-2  bg-white text-green-800 shadow-lg rounded-md  absolute top-[60px] right-[184px] ">
                   <ul className='text-end'>
-                    <li className='p-2  text-[#000] text-[16px] font-medium duration-300 ease-in-out hover:bg-gray-100 hover:text-[#4CAF4F] cursor-pointer '>Astha Academic</li>
-                    <li className='p-2  text-[#000] text-[16px] font-medium mt-1 duration-300 ease-in-out hover:bg-gray-100 hover:text-[#4CAF4F] cursor-pointer '>Astha Hospital </li>
-                    <li className='p-2  text-[#000] text-[16px] font-medium mt-1 duration-300 ease-in-out hover:bg-gray-100 hover:text-[#4CAF4F] cursor-pointer '>Astha Wallet</li>
+                    <li className='p-2  text-[#000] text-[16px] font-medium duration-300 ease-in-out hover:bg-gray-100 hover:text-[#4CAF4F] cursor-pointer '>
+                        <a href="https://preskool.dreamstechnologies.com/html/template/index.html" target='blank'>Astha Academic</a>
+                    </li>
+                    <li className='p-2  text-[#000] text-[16px] font-medium mt-1 duration-300 ease-in-out hover:bg-gray-100 hover:text-[#4CAF4F] cursor-pointer '>
+                        <a href="https://preclinic.dreamstechnologies.com/html/template/login.html" target='blank'>Astha Hospital</a> </li>
+                    <li className='p-2  text-[#000] text-[16px] font-medium mt-1 duration-300 ease-in-out hover:bg-gray-100 hover:text-[#4CAF4F] cursor-pointer '>
+                        
+                        <a href="https://pospro.acnoo.com/login" target='blank'>Astha Wallet</a>
+                    </li>
                   </ul>
                 </div> )}   
                         {/* <div className="w-[50%] lg:hidden">
